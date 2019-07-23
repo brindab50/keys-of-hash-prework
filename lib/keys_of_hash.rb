@@ -1,13 +1,13 @@
 class Hash
   def keys_of(*arguments)
-    if arguments.include?(value)
+    if  arguments.include?(value)
       key
-  else
+    else
     nil
-  end
+   end
   
+  end
 end
-
 
 #def keys_of(*args) 
   #map {|key, value| args.include?(value) ? key : nil }.compact
