@@ -1,5 +1,6 @@
 class Hash
   def keys_of(*arguments)
+    
     if  arguments.include?(value)
       key
     else
