@@ -1,11 +1,11 @@
 class Hash
   def keys_of(*arguments)
-    
-    if  arguments.include?(value)
-      key
-    else
-    nil
-   end
+    map {|key, value| arguments.include?(value) ? key : nil }.compact
+   # if  arguments.include?(value)
+    #  key
+    #else
+    #nil
+   #end
   
   end
 end
